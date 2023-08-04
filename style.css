@@ -1,0 +1,57 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.col{
+    border: 1px;
+    height: 40px;
+    padding: 12px;
+}
+.navbar-brand{
+    margin: 10px;
+}
+
+.header-top{
+    background-color: #169FCC;
+    height: 110px;
+}
+
+.col-6{
+    width: 40%;
+    min-height: 50px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 50px;
+}
+.BANNER{
+    background-image:url(images/FOSSIL.webp);
+    width:100%;
+    height:100%;
+    padding:100px;
+}
+
+.row{
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+
+}
+.example{
+    position: relative;
+  }
+  .overlay-text{
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+    position:absolute;
+    top:40%;
+    right:20%;
+    transform:translate(50%, -50%);
+  }
+
